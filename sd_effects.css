@@ -14,11 +14,20 @@
 */
 
 /* HTML Styles */
+html {
+    background: url(sd_back1.png) fixed;
+    width: 100%;
+    background-size: 100%;
 
+}
 
 
 /* Body Styles */
-
+body {
+    background: url(sd_back2.png);
+    background: radial-gradient(circle closest-corner at 40% 70%, white 15%, rgba(151, 151, 151, 0.5) 50%);
+    background: radial-gradient(circle closest-corner at 80% 40%)
+}
 
 
 
@@ -33,5 +42,3 @@
 
 
 /* Footer Styles */
-
-
