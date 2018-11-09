@@ -14,13 +14,16 @@
 */
 
 /* HTML Styles */
-/*  */
+/* Styles within this section will affect the entire page which is encompassed within the html element tag. */
+/* The below selector stated that properties within will be applied to the HTMl element. The styles within state that the html element content will have the image listed as its background and that the background will be the size of the entire page. The fixed attribute states that the image will not scroll with the user and will stay in a fixed location. */
 html {
     background: url(sd_back1.png) fixed;
     background-size: 100%;
 }
 
 /* Body Styles */
+/* Styles within this section will affect everything nested in the body tag on the HTML document.  */
+/* The selector states that styles within will be applied to the body element in the HTMl document. the background property applied a different image as the background of the body, overwritting the image set prior. The radial gradients listed within the background element added radial gradients to various area of the body, specifying the colors that they will transition from and where on the body they sould be located. The background color property adds a bckground color to the body. The box shadow property adds a shadow to each side of the body element.*/
 body {
     background: url(sd_back2.png),
         radial-gradient(circle closest-corner at 40% 70%, white 15%, rgba(151, 151, 151, 0.5) 50%),
@@ -32,16 +35,21 @@ body {
 }
 
 /* Navigation List Styles */
+/* Styles within this secion will affect the navigaton list elements within the HTMl document.  */
+/* The selector below states that the a elements nested within the header which is a child of the body will be affected by the properties listed. The border property creates a border around each a element that is 5 pixels in width and has an outset.  */
 body>header a {
     border: outset 5px rgb(211, 211, 255);
 }
 
 /* Section Left Styles */
+/* Styles within this section will affect the content nested within the section element with an id of left in the HTML documnet.  */
+/* The selector below states that properties listed will affect the h1 elements within the HTML document. The color property specifies the color of the text. The text shadow property applied a 5px shadow around the text. */
 h1 {
     color: rgb(211, 211, 211);
     text-shadow: 0px 0px 5px
 }
 
+/* The selector states that the id of mportrait witiin the HTML document will be affected. The webkit filter property povided cross browser support for the filters listed. The filter property adds the specified filters to the the image nested within the id. The transfrom property rotates the image along its Y axis. */
 #mportrait {
     -webkit-filter: drop-shadow(-15px 0px 5px rgba(51, 51, 51, 0.9)) grayscale(0.7) opacity(0.6);
     filter: drop-shadow(-15px 0px 5px rgba(51, 51, 51, 0.9)) grayscale(0.7) opacity(0.6);
@@ -49,6 +57,8 @@ h1 {
 }
 
 /* Footer Styles */
+/* Styles within this section will affect the footer element within the HTML document.  */
+/* The selecto states that properties within will affect the footer. The border top element creates a 2 pixel border along the top of the footer element.  */
 footer {
     border-top: solid 2px rgb(171, 171, 171);
 }
